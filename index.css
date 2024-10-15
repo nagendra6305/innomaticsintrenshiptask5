@@ -1,0 +1,298 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 99.61%;
+}
+
+
+.navbarheader{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.list{
+    border: 1px solid black;
+    width: 350px;
+    border-radius: 50px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(102 0 102/var(--tw-bg-opacity));
+    margin: 15px;
+    transition: all 0.3s ease; 
+}
+.list:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(102 0 102/var(--tw-bg-opacity)); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05); 
+  border-color: #fff; 
+}
+
+.list p{
+   
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+  
+}
+.list svg{
+ margin-right: 10px;
+
+
+}
+.text-heading{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 750;
+}
+.Mobile{
+    height: 680px;
+    width: 550px;
+  margin-left: 50px;
+}
+ 
+
+.main-phone{
+    margin: 20px;
+}
+.explorecars{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.getcar{
+    width: 650px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    
+}
+.getcar:hover {
+    transform: scale(1.05); 
+
+}
+
+.main2{
+    height: 370px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(102 0 102/var(--tw-bg-opacity));
+    margin: 40px;
+}
+.mapsimg{
+    padding: 20px;
+   
+    width: 400px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+.mapsimg:hover {
+    transform: scale(1.05);   
+
+     
+}
+.exploretext{
+   padding: 50px;
+}
+.explorecarinhyd{
+    font-size: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left:  430px;
+   
+}
+.inputsearch{
+width: 850px;
+border: 2px solid black;
+margin-left:  300px;
+border-radius: 10px;
+margin-bottom: 20px;
+
+}
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; /* Aligns the content at the bottom */
+  }
+  
+  .overlay-text {
+  
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-title, .card-text {
+    margin: 0;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  .card-body .d-flex span {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px; /* Optional: Adds space between items */
+    color: white;
+  }
+  .carname{
+    color:white ;
+    margin-left: 40px;
+    margin-top: 3px;
+    font-family: sans-serif;
+    
+    font-size: 20px;
+   
+    background-color: rgb(67, 67, 73);
+    cursor: pointer;
+  }
+  .main3{
+   /* margin: 0px 40px; */
+   margin: 100px;
+   margin-top: 50px;
+   
+  }
+  .cardmodify {
+    
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .cardmodify:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .cardmodify img{
+    padding: auto;
+  }
+  .btn-primary{
+    --tw-bg-opacity: 1;
+    background-color: rgb(102 0 102/var(--tw-bg-opacity)); /* Purple color */
+    border-color: #6f42c1;     /* Purple border */
+    border-radius: 50px;
+    padding: 10px;
+   
+   font-family: sans-serif;
+   font-weight: 650;
+  }
+  .main4{
+    margin-top: 50px;
+    background: linear-gradient(to bottom, purple, white);
+
+  }
+  .thar{
+    padding: 20px;
+    height: 650px;
+    width: 650px;
+  }
+  .chooseacar{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    width: 350px;
+    border: 1px solid white;
+  }
+  .chooseacar svg{
+    --tw-bg-opacity: 1;
+  background-color: rgb(102 0 102/var(--tw-bg-opacity));
+   margin: 10px;
+   color: white;
+   height: 30px;
+   width: 30px;
+  }
+  .textbold{
+font-family: sans-serif;
+font-size: 15px;
+font-weight: bolder;
+
+  }
+  .bookacar{
+    color: white;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 800;
+    
+    
+    
+  }
+  .carbookingcol{
+    padding: 170px 70px;
+  }
+.backgrondcolor{
+  --tw-bg-opacity: 1;
+  background-color: rgb(102 0 102/var(--tw-bg-opacity));
+  margin: 90px;
+}
+ 
+.cantfindcar{
+
+padding: 50px  450px;
+}
+.letusfind{
+  padding-left: 40px;
+  color: white;
+
+}
+.inputentermobile{
+height: 50px;
+  width: 230px;
+  border-radius: 10px;
+margin-right: 3px;
+}
+.getbtn{
+background-color: greenyellow;
+
+width: 100px;
+border: 1px greenyellow;
+border-radius: 20px;
+
+}
+.input-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-right: 110px;
+}
+.main6{
+  margin: 100px;
+}
+.Frequently{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.accordion-item {
+ border: 2px solid black;
+}
+.imglongdrives{
+width:100%;
+}
+.footerpara{
+  color: white;
+}
+.brances{
+  padding: 50px;
+  font-weight: 650;
+  list-style: none;
+  font-size: large;
+}
+.termsandcond{
+  color: white;
+  padding: 50px;
+  font-weight: 650;
+  list-style: none;
+  font-size: large;
+}
+
+.footerpara{
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 700;
+}
